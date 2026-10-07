@@ -74,9 +74,9 @@ The following models were trained and evaluated:
 
 | Model | Vectorizer | Accuracy |
 |--------|------------|----------|
-| Naive Bayes | CountVectorizer | **91.75%** |
-| Logistic Regression | TF-IDF | **92.47%** |
-| Linear SVM | TF-IDF | **92.78%** ✅ |
+| Naive Bayes | CountVectorizer | **91.66%** |
+| Logistic Regression | TF-IDF | **92.27%** |
+| Linear SVM | TF-IDF | **93.08%** ✅ |
 
 Linear SVM achieved the highest accuracy and was selected as the final model.
 
@@ -137,7 +137,7 @@ jupyter notebook
 
 - Successfully classified Amazon product reviews into Positive, Neutral, and Negative sentiments.
 - Compared multiple machine learning algorithms.
-- Linear SVM achieved the best performance with **92.78% accuracy**.
+- Linear SVM achieved the best performance with **93.08% accuracy**.
 - Saved the trained model and TF-IDF vectorizer for future deployment.
 
 ---
